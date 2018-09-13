@@ -1,0 +1,33 @@
+.main-footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.btn {
+    margin-right: 5px
+}
+
+.tableActions {
+    width: 105px;
+}
+
+.tableActionsList {
+    width: 150px;
+}
+
+.wrapper {
+    background-color: #fff!important;
+}
+
+.login-box-body {
+    background-color: #eee;
+}
+
+.login-box button {
+    margin-left: 0px;
+}
+
+.login-box a:hover {
+    cursor: pointer;
+}
