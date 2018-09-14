@@ -3,7 +3,9 @@ import { toastr } from 'react-redux-toastr'
 import { initialize } from 'redux-form'
 import { showTabs, selectTab } from '../common/tab/tabActions'
 
-const URL = 'http://localhost:3003/api/billingCycles'
+import consts from '../consts'
+
+const URL = `${consts.API_URL}/billingCycles`
 
 const INITIAL_VALUES = {
     credits: [{}],

@@ -6,6 +6,8 @@ import Content from '../common/template/content'
 import Row from '../common/layout/row'
 import ValueBox from '../common/widget/valueBox'
 
+import consts from '../consts'
+
 const Dashboard = class Dashboard extends Component {
 
     constructor(props) {
@@ -33,7 +35,7 @@ const Dashboard = class Dashboard extends Component {
     }
 
     componentWillMount() {
-        const URL = 'http://localhost:3003/api/billingCycles'
+        const URL = `${consts.API_URL}/billingCycles`
         axios.get(`${URL}/summary`)
             .then(resp => {
                 this.setState({ 
