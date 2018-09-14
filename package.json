@@ -20,16 +20,13 @@
     "redux-form": "7.4.2",
     "redux-multi": "0.1.12",
     "redux-promise": "0.6.0",
-    "redux-thunk": "2.3.0",
-    "serve": "^10.0.1"
+    "redux-thunk": "2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "serve": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
+    "eject": "react-scripts eject"
   },
   "engines": {
     "node": "8.11.3",
